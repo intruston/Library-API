@@ -4,6 +4,7 @@ A simple API where you could use CRUD operations to create-read-update-delete bo
 To create a book use method:
 *POST: http://localhost:3000/books*
 And send raw JSON, e.g.:
+
     {
         "title": "Dune",
         "author": "Frank Herbert"
